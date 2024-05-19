@@ -26,10 +26,14 @@ section {
   border-color: hotpink;
   border-width: 5px;
 
-  /* Aquí configurar el display flex
-  de la sección entera */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-
-/* Aquí crear los estilos para la clase avatar
- y configurar el display flex que requiere */
-
+.avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
